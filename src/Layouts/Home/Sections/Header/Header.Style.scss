@@ -1,0 +1,16 @@
+@import '../../../../Assets/Styles/Helpers/Helpers.Style.scss';
+
+.header-wrapper {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  min-height: 2rem;
+  background-color: $c-secondary;
+  color: $c-white;
+  z-index: 99;
+  padding: 2rem;
+
+  .header-content-wrapper {
+
+  }
+}

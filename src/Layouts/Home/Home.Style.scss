@@ -1,0 +1,13 @@
+@import '../../Assets/Styles/Helpers/Helpers.Style.scss';
+@import '../../Assets/Styles/Helpers/Helpers.Style.scss';
+
+.container-wrapper {
+  display: flex;
+  width: 100%;
+  padding-top: 6rem;
+
+  .home-views-wrapper {
+    display: inline-flex;
+    width: 100%;
+  }
+}
