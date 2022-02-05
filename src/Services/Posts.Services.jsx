@@ -1,11 +1,8 @@
 import Axios from 'axios';
 
-export const GetAllPosts = async ({ search }) => {
-  const queryList = [];
-  if (search) queryList.push(`query=${search}`);
-
+export const GetAllPosts = async () => {
   const result = await Axios.get(
-    `https://jsonplaceholder.typicode.com/posts/${queryList.join('&')}`,
+    'https://jsonplaceholder.typicode.com/posts',
   )
     .then((data) => data)
     .catch((error) => error.response);

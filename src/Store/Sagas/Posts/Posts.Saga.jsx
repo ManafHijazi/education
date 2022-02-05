@@ -1,5 +1,4 @@
 import { call, put, takeEvery } from 'redux-saga/effects';
-
 import { PostsActions } from '../../Actions';
 import { PostsStates } from '../../States';
 import { GetAllPosts } from '../../../Services';
@@ -9,6 +8,7 @@ function* fetchPost(action) {
     let results = null;
     results = yield call(GetAllPosts, action.payload);
     yield put(PostsActions.getPostSuccess(results));
+    localStorage.setItem('posts', JSON.stringify(results));
   } catch (err) {
     yield put(PostsActions.getPostError(err));
   }

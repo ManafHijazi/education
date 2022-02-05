@@ -12,8 +12,9 @@ export const PostsReducers = (state = init, action) => {
     case PostsStates.RESET:
       return { ...state, postsResponse: null, error: null };
     case PostsStates.POST_SUCCESS:
-    case PostsStates.POST_FAIL:
       return { ...state, postsResponse: action.payload, error: null };
+    case PostsStates.POST_FAIL:
+      return { ...state, postsResponse: null, error: action.payload };
     default:
       return state;
   }
