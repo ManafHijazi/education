@@ -1,0 +1,83 @@
+@import '../../../../Assets/Styles/Helpers/Helpers.Style.scss';
+
+.footer-wrapper {
+  min-height: 36rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #0E1014;
+  padding: 86px 15px 15px;
+  position: relative;
+  color: $c-white;
+  font-family: 'Roboto', 'Arial', 'sans', serif;
+
+  .footer-content {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+
+    .footer-right-section {
+      width: 50%;
+      padding-right: 2rem;
+
+      .footer-item {
+        margin-bottom: 3rem;
+        font-size: 16px;
+      }
+
+      .footer-logo {
+        padding-bottom: 2rem;
+
+        img {
+          width: 19rem;
+          height: 100%;
+        }
+      }
+
+      .copy-right-wrapper {
+        .copy-right-body {
+          padding-top: 2rem;
+        }
+      }
+
+      .footer-social-media {
+        padding-bottom: 2rem;
+
+        .social-media-title {
+          font-size: 18px;
+          font-weight: bold;
+          padding-bottom: 1rem;
+        }
+      }
+    }
+
+    .footer-left-section {
+      width: 50%;
+      display: flex;
+      font-size: 16px;
+
+      .item-list {
+        display: flex;
+      }
+
+      .footer-menu {
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+          width: fit-content;
+          padding: 10px;
+          margin-right: 10px;
+          list-style: none;
+
+          &:before {
+            width: 25px;
+            height: 15px;
+            border-radius: 25%;
+            background-color: #fff;
+          }
+        }
+      }
+    }
+  }
+}

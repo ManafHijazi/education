@@ -7,7 +7,7 @@
     .main-header-content-wrapper {
       background-color: $c-secondary;
       color: $c-white;
-      height: 12rem;
+      min-height: 12rem;
 
       .main-header-content {
         max-width: 1440px;
@@ -111,7 +111,7 @@
         .main-lower-wrapper {
           display: flex;
           align-items: center;
-          height: 5rem;
+          height: 4rem;
 
           .main-lower-item {
             padding-right: 3.5rem;
