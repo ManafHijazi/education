@@ -100,5 +100,8 @@
   "bugs": {
     "url": "https://github.com/ManafHijazi/education/issues"
   },
-  "homepage": "https://github.com/ManafHijazi/education#readme"
+  "homepage": "https://github.com/ManafHijazi/education#readme",
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
 }
