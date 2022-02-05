@@ -13,6 +13,112 @@
         max-width: 1440px;
         padding: 0 15px;
         margin: 0 auto;
+
+
+        .main-upper-wrapper {
+          display: flex;
+
+          .main-upper-image {
+            padding-right: 1rem;
+
+            img {
+              width: 120px;
+              height: 100%;
+              overflow: hidden;
+            }
+          }
+
+          .main-upper-content {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: space-between;
+            font-size: 12px;
+
+            .upper-content-section {
+              font-family: "Faustina", "Crimson Text", "serif";
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+
+              &.is-with-border {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+              }
+
+              .nav-items-wrapper {
+                display: flex;
+                align-items: center;
+
+                .MuiButton-root {
+                  background-color: $c-primary;
+                  color: $c-white;
+                  font-size: 12px;
+                  font-weight: bold;
+                  border-radius: 0;
+                  padding-bottom: 0.7rem;
+                  min-width: 9rem;
+
+                  img {
+                    width: 14px;
+                    height: 100%;
+                    margin-left: 0.3rem;
+                  }
+                }
+
+                .upper-content-item {
+                  padding-right: 1rem;
+                }
+              }
+
+              .upper-content-title {
+                font-size: 46px;
+              }
+
+              .upper-content-search-wrapper {
+                .MuiOutlinedInput-root {
+                  color: $c-white;
+                }
+
+                .MuiTextField-root {
+                  min-width: 30rem;
+
+                  .MuiInputLabel-root {
+                    color: $c-white;
+                    font-size: 14px;
+                  }
+
+                  .MuiInputAdornment-root {
+                    color: $c-white;
+
+                    .MuiSvgIcon-root {
+                      font-size: 2rem;
+                    }
+                  }
+
+                  .MuiOutlinedInput-notchedOutline {
+                    border-color: rgba(128, 128, 128, 0.36);
+                  }
+                }
+              }
+
+              .upper-content-sub-title {
+                padding: 9px 0;
+              }
+            }
+          }
+        }
+
+        .main-lower-wrapper {
+          display: flex;
+          align-items: center;
+          height: 5rem;
+
+          .main-lower-item {
+            padding-right: 3.5rem;
+            font-size: 18px;
+            font-family: 'Roboto', 'Arial', 'sans', serif;
+          }
+        }
       }
     }
 

@@ -8,7 +8,7 @@ function* fetchPost(action) {
     let results = null;
     results = yield call(GetAllPosts, action.payload);
     yield put(PostsActions.getPostSuccess(results));
-    localStorage.setItem('posts', JSON.stringify(results));
+    if (results) localStorage.setItem('posts', JSON.stringify(results));
   } catch (err) {
     yield put(PostsActions.getPostError(err));
   }
