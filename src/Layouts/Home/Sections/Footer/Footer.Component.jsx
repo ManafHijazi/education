@@ -1,7 +1,5 @@
 import React from 'react';
 import footerLogo from '../../../../Assets/Images/temple-logo-horizontal.svg';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faCoffee} from '@fortawesome/free-solid-svg-icons'
 import './Footer.Style.scss';
 
 export const FooterComponent = () => {
@@ -36,20 +34,20 @@ export const FooterComponent = () => {
                 <div className="footer-left-section">
                     <div className="item-list">
                         <ul className="footer-menu">
-                            <li><a>Cherry &amp; White Directory</a></li>
-                            <li><a>Maps &amp; Directions</a></li>
-                            <li><a>Contact</a></li>
-                            <li><a>Calendar</a></li>
-                            <li><a>Policies</a></li>
-                            <li><a>Social Media</a></li>
-                            <li><a>TUportal</a></li>
-                            <li><a>TUmail</a></li>
-                            <li><a>Accessibility</a></li>
-                            <li><a>Careers at Temple</a></li>
-                            <li><a>Safety & Emergency Information</a></li>
-                            <li><a>Ethics & Compliance</a></li>
-                            <li><a>Privacy Statement</a></li>
-                            <li><a>Professional Licensure Disclosures</a></li>
+                            <li>Cherry &amp; White Directory</li>
+                            <li>Maps &amp; Directions</li>
+                            <li>Contact</li>
+                            <li>Calendar</li>
+                            <li>Policies</li>
+                            <li>Social Media</li>
+                            <li>TUportal</li>
+                            <li>TUmail</li>
+                            <li>Accessibility</li>
+                            <li>Careers at Temple</li>
+                            <li>Safety & Emergency Information</li>
+                            <li>Ethics & Compliance</li>
+                            <li>Privacy Statement</li>
+                            <li>Professional Licensure Disclosures</li>
                         </ul>
                     </div>
                 </div>

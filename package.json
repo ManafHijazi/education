@@ -4,6 +4,9 @@
   "description": "TACME Education Task",
   "main": "index.jsx",
   "private": true,
+  "engines": {
+    "node": "12.22.5"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
